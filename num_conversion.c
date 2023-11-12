@@ -14,7 +14,8 @@ int print_hex_lower(va_list k, fmtflags_t *s)
 	int sum = 0;
 
 	if (s->hash == 1 && string[0] != '0')
-		sum += _puts(string);
+		sum += _puts("0x");
+	sum += _puts(string);
 	return (sum);
 }
 
