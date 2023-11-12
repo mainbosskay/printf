@@ -18,12 +18,12 @@ typedef struct fmtflags
 	int space;
 	int hash;
 	int plus;
-}fmtflags_t;
+} fmtflags_t;
 
 /**
  * struct fmtprint - Mapping format specifiers
  * @c: format specifier
- * @a: print function
+ * @s: print function
  */
 
 typedef struct fmtprint
