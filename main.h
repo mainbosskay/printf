@@ -8,16 +8,16 @@
 
 /**
  * struct fmtflags - Structure containing flags
+ * @plus: '+' character
  * @space: ' ' character
  * @hash: '#' character
- * @plus: '+' character
  */
 
 typedef struct fmtflags
 {
+	int plus;
 	int space;
 	int hash;
-	int plus;
 } fmtflags_t;
 
 /**
