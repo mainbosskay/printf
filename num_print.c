@@ -15,7 +15,7 @@ int integer_print(va_list k, fmtflags_t *s)
 
 	if (s->space == 1 && s->plus == 0 && a >= 0 && s->zero == 1 && s->minus != 1)
 		result += _putchar(' ');
-	if (s->plus == 1 && a >= 0 && s->zero == 1 && s->minus == -1)
+	if (s->plus == 1 && a >= 0 && s->zero == 1 && s->minus != 1)
 		result += _putchar('+');
 	if (a <= 0 && s->zero == 1 && s->minus != 1)
 		result++;
