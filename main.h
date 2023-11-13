@@ -11,6 +11,8 @@
  * @plus: '+' character
  * @space: ' ' character
  * @hash: '#' character
+ * @zero: '0' character
+ * @minus: '-' character
  */
 
 typedef struct fmtflags
@@ -18,6 +20,8 @@ typedef struct fmtflags
 	int plus;
 	int space;
 	int hash;
+	int zero;
+	int minus;
 } fmtflags_t;
 
 /**

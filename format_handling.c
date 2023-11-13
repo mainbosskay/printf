@@ -59,6 +59,14 @@ int handle_flag(char b, fmtflags_t *s)
 			s->hash = 1;
 			j = 1;
 			break;
+		case '-':
+			s->minus = 1;
+			j = 1;
+			break;
+		case '0':
+			s->zero = 1;
+			j = 1;
+			break;
 	}
 	return (j);
 }
