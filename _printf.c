@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int (*pfunc)(va_list, fmtflags_t *);
 	const char *b;
 	va_list ags;
-	fmtflags_t fmtflags = {0, 0, 0, 0, 0};
+	fmtflags_t fmtflags = {0, 0, 0};
 
 	int sum = 0;
 
